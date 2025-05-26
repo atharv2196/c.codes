@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void fillarray(int *arr,int n){
     for(int i=0;i<n;i++){
         printf("Enter Element %d ::",i+1);
@@ -16,6 +17,7 @@ void disprev(int *rev,int n){
     }
 }
 int main() {
+    
     // Write C code here
     int n;
     printf("Enter No of Element You want in array :");
@@ -26,5 +28,6 @@ int main() {
     fillarray(arr,n);
     reverse(arr,n,rev);
     disprev(rev,n);
+    
     return 0;
 }

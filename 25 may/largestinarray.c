@@ -14,7 +14,7 @@ void large(int *arr,int n,int x){
             x=arr[i];
         }
     
-}
+}//try second largest
 printf("\nThe Largest Element is %d .",x);
 }
 

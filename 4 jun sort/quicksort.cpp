@@ -42,3 +42,4 @@ int main() {
 }
 // Time complexity: O(n log n) on average, O(n^2) in the worst case
 // Space complexity: O(log n) due to recursive stack space  
+// Working: The quicksort algorithm selects a 'pivot' element and partitions the array into two halves: elements less than the pivot and elements greater than the pivot.
